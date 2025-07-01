@@ -145,3 +145,90 @@ main{
     padding: 20px;
     text-indent: 20px;
 }
+
+.imagem-3-main{
+    text-align: center;
+}
+
+.p-texto-4-main{
+    text-align: justify;
+    font-family: pledge-regular, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+.video-1-main{
+    border:#00521b solid 20px;
+    text-align: center;
+    width: auto;
+    height: 400px;
+}
+
+.texto-5-main{
+    margin: 10px;
+    background-color: #02d448d5;
+    border-radius: 20px;
+}
+.h2-texto-5-main{ 
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1 em;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #00521b;
+    text-indent: 20px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px;
+}
+
+.p-texto-6-main{
+    text-align: justify;
+    font-family: pledge-regular, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+    padding: 10px;
+    text-indent: 20px;
+}
+.lista-texto-6-main{
+    columns: 2;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    font-family: pledge-regular, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+}
+
+.p1-texto-7-main{
+    text-align: justify;
+    font-family: pledge-regular, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+.p-texto-8-main{
+    text-align: justify;
+    font-family: pledge-regular, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+footer{
+    background-color: #00521b;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: pledge-regular, sans-serif;
+    margin: 0;
+}
