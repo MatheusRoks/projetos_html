@@ -59,6 +59,7 @@ main{
     margin:0px 100px;
     background-color: white;   
     padding: 0px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .h1-texto-1-main{
@@ -67,4 +68,48 @@ main{
     font-size: 2.5em;
     color: #016321;
     margin: 0px;
+    padding: 10px;
+}
+.p-texto-1-main{
+    text-align: justify;
+    font-family: pledge-regular, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+.h2-texto-2-main{
+    text-align: left;
+    font-family: idroid, sans-serif;
+    font-size: 1.3em;
+    color: #00521b;
+    margin: 0px;
+    padding: 10px;
+    background: linear-gradient(to right,#01d648c0, #ffffff);
+    text-indent: 20px;
+}
+
+.p-texto-2-main{
+    text-align: justify;
+    font-family: pledge-regular, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    color: black;
+    padding: 20px;
+    text-indent: 20px;
+}
+.p-texto-2-main > a{
+    color: #016321;
+    font-weight: bold;
+    background-color: #02dd4bbb;
+    padding: 2px;
+}
+
+.imagem-1-main{
+    text-align: center;
+}
+.imagem-2-main{
+    text-align: center;
 }
