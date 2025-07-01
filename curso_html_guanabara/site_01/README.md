@@ -1,2 +1,2 @@
-#Projeto do site fornecido pelo guanabara
+#Projeto_do_site_fornecido_pelo_Guanabara
 todo esse site aqui contido foi fornecido como exemplo pelo professor Guanabara, assim sendo devo deixar claro que ainda que eu mesmo tenha escrito a parte do css desse site, fornecido as alterações pessoais e etc. esse projeto faz parte das aulas do curso de HTML e CSS que o professor disponibilizou no seu curso, assim, portanto, não sendo um trabalho autoral. 
