@@ -4,13 +4,29 @@
     src: url(../assets/fontes/idroid.otf) format("opentype");
 }
 
+:root{
+    --cor-primaria: #016321;
+    --cor-secundaria: #00af3b;
+    --cor-terciaria: #00521b;
+    --cor-quarternaria:  #02dd4bbb;
+    --cor-texto: black;
+    --cor-fundo: rgb(255, 221, 221);
+    --cor-fundo-header: linear-gradient(to bottom,#00af3b, #016321);
+    --cor-fundo-main: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin:0;
-    background-color:rgb(255, 221, 221);
+    background-color: var(--cor-fundo);
 }
 
 header{
-    background:linear-gradient(to bottom,#00af3b, #016321);
+    background: var(--cor-fundo-header);
     margin: 0;
     padding: 10px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
@@ -19,14 +35,14 @@ header{
 
 .h1-header{
     text-align: center;
-    color: white;
+    color: var(--cor-fundo-main);
     font-size: 2.5em;
     margin: 10px;
 }
 
 .h2-header{
     text-align: center;
-    color: white;
+    color: var(--cor-fundo-main);
     font-size: 0.8em;
     margin-bottom: 20px;
 }
@@ -51,13 +67,14 @@ a{
 }
 
 .a-header{
-    color: white;
+    color: var(--cor-fundo-main);
     font-weight: bold;
 }
 
 main{
-    margin:0px 70px;
-    background-color: white;   
+    margin: auto;
+    max-width: 800px;
+    background-color: var(--cor-fundo-main);   
     padding: 0px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
@@ -66,7 +83,7 @@ main{
     text-align: center;
     font-family: idroid, sans-serif;
     font-size: 2.5em;
-    color: #016321;
+    color: var(--cor-primaria);
     margin: 0px;
     padding: 10px;
 }
@@ -76,7 +93,7 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
     padding: 20px;
     text-indent: 20px;
 }
@@ -85,10 +102,10 @@ main{
     text-align: left;
     font-family: idroid, sans-serif;
     font-size: 1.3em;
-    color: #00521b;
+    color: var(--cor-terciaria);
     margin: 0px;
     padding: 10px;
-    background: linear-gradient(to right,#01d648c0, #ffffff);
+    background: linear-gradient(to right, var(--cor-secundaria), var(--cor-fundo-main));
     text-indent: 20px;
 }
 
@@ -97,35 +114,35 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
     padding: 20px;
     text-indent: 20px;
 }
 
 .link-a-texto{
-    color: #016321;
+    color: var(--cor-primaria);
     font-weight: bold;
-    background-color: #02dd4bbb;
+    background-color: var(--cor-quarternaria);
     padding: 2px;
 }
 
 .link-a-texto:visited{
-    color: #ffffff;
+    color: var(--cor-fundo-main);
     font-weight: bold;
-    background-color: #02dd4bbb;
+    background-color: var(--cor-quarternaria);
     padding: 2px;
 }
 
 .link-a-texto:hover{
-    color:#ffffff;
+    color:var(--cor-fundo-main);
     font-weight: bold;
     text-decoration: underline;
 }
 
 .link-a-texto:active{
-    color: #016321;
+    color: var(--cor-primaria);
     font-weight: bold;
-    background-color: #02dd4bbb;
+    background-color: var(--cor-quarternaria);
     padding: 2px;
 }
 
@@ -136,7 +153,7 @@ main{
 .p-imagem-1{
     font-family: pledge-regular, sans-serif;
     font-size: 0.8em;
-    color: black;
+    color: var(--cor-texto);
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -149,10 +166,10 @@ main{
     text-align: left;
     font-family: idroid, sans-serif;
     font-size: 1.3em;
-    color: #00521b;
+    color: var(--cor-terciaria);
     margin: 0px;
     padding: 10px;
-    background: linear-gradient(to right,#01d648c0, #ffffff);
+    background: linear-gradient(to right, var(--cor-secundaria), var(--cor-fundo-main));
     text-indent: 20px;
 }
 
@@ -161,7 +178,7 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
     padding: 20px;
     text-indent: 20px;
 }
@@ -175,13 +192,13 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
     padding: 20px;
     text-indent: 20px;
 }
 
 .video-1-main{
-    border:#00521b solid 20px;
+    border: var(--cor-terciaria) solid 20px;
     text-align: center;
     width: auto;
     height: 400px;
@@ -197,9 +214,9 @@ main{
     text-align: left;
     font-family: sans-serif;
     font-size: 1 em;
-    color: #ffffff;
+    color: var(--cor-fundo-main);
     padding: 10px;
-    background-color: #00521b;
+    background-color: var(--cor-terciaria);
     text-indent: 20px;
     border-radius: 20px 20px 0px 0px;
     margin: 0px;
@@ -210,7 +227,7 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
     padding: 10px;
     text-indent: 20px;
 }
@@ -223,7 +240,7 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
 }
 
 .p1-texto-6-main{
@@ -231,7 +248,7 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
     padding: 10px;
     text-indent: 20px;
 }
@@ -241,14 +258,14 @@ main{
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
     margin: 0px;
-    color: black;
+    color: var(--cor-texto);
     padding: 10px;
     text-indent: 20px;
 }
 
 footer{
-    background-color: #00521b;
-    color: white;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-fundo-main);
     text-align: center;
     padding: 5px;
     font-family: pledge-regular, sans-serif;
