@@ -102,7 +102,7 @@ main{
     text-indent: 20px;
 }
 
-.p-texto-2-main > a{
+.link-a-texto{
     color: #016321;
     font-weight: bold;
     background-color: #02dd4bbb;
@@ -184,7 +184,7 @@ main{
     margin: 0px;
 }
 
-.p-texto-6-main{
+.p-texto-5-main{
     text-align: justify;
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
@@ -193,7 +193,7 @@ main{
     padding: 10px;
     text-indent: 20px;
 }
-.lista-texto-6-main{
+.lista-texto-5-main{
     columns: 2;
     text-align: justify;
     text-indent: 20px;
@@ -204,7 +204,7 @@ main{
     color: black;
 }
 
-.p1-texto-7-main{
+.p1-texto-6-main{
     text-align: justify;
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
@@ -214,7 +214,7 @@ main{
     text-indent: 20px;
 }
 
-.p-texto-8-main{
+.p-texto-7-main{
     text-align: justify;
     font-family: pledge-regular, sans-serif;
     font-size: 1em;
