@@ -1,0 +1,2 @@
+<h1> Sobre o site</h1>
+<p> Esse site faz parte do curso de HTML e CSS. O objetivo desse site em si é fornecer a capacidade de entender o efeito parallax em um site. Assim, todo o site em si é simples<p>
