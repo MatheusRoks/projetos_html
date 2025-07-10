@@ -28,3 +28,11 @@ main{
     background: url(../image/frame-iphone.png) no-repeat center center fixed;
     background-size: cover;
 }
+
+iframe.tela{
+    position: relative;
+    left: 18px;
+    top: 63px;
+    height: 378px;
+    width: 214px;
+}
