@@ -50,7 +50,21 @@ footer{
     1px 1px 0 black;
 }
 nav{
+    display: none;
+}
+
+#icone{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 10px;
     display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+#icone:hover{
+    background-color: lightgray;
+    color: black;
 }
 
 li a{
@@ -67,6 +81,10 @@ li a{
     -1px 1px 0 black,
     1px 1px 0 black;
     border-top: gray solid 1px;
+}
+
+a:hover{
+    background-color: lightgray;
 }
 
 .h1_main{
