@@ -13,7 +13,7 @@
     <header>
         <h1 class="h1_header" onclick="clickMenu()">Meu site</h1>
         <i id="icone" class="material-icons">menu</i>
-        <nav>
+        <nav id="itens">
             <ul class="menu">
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -31,7 +31,13 @@
         <p class="p_main">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed distinctio quo soluta maxime tenetur est, numquam nam quos error nesciunt quaerat et aliquam iure labore unde eum odit ipsa recusandae!</p>
     </main>
     <footer>&#169; 2025 Matheus Roks. Todos os direitos reservados.</footer>
-
+    <script>
+        const menuItens = document.getElementById('itens');
+        const menuIcone = document.getElementById('icone');
+        menuIcone.addEventListener('click', function() {
+            menuItens.classList.toggle('menu-aberto');
+        });
+    </script>
 </body>
 </html>
 

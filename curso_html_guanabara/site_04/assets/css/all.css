@@ -12,6 +12,8 @@ html{
 }
 body{
     background-color: lightgray;
+    position: relative;
+    min-height: 100vh;
 
 }
 
@@ -32,7 +34,7 @@ footer{
     background-color: rgb(128, 128, 128);
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -65,6 +67,10 @@ nav{
 #icone:hover{
     background-color: lightgray;
     color: black;
+}
+
+nav.menu-aberto{
+    display: block;
 }
 
 li a{
