@@ -10,13 +10,25 @@
 </head>
 <body>
     <main>
+        <h1>Login</h1>
+        <p>Bem-vindo(a) novamente, realizei o login para entrar</p>
         <form action="php.php">
             <fieldset>
                 <legend>Login</legend>
                 <label for="iemail">Email: </label>
-                <input type="datetime-local" name="email" id="iemail" required placeholder="Digite seu email" autocomplete="on">
+                <input type="email" name="email" id="iemail" required placeholder="Digite seu email" autocomplete="on">
+                <label for="isenha">Senha: </label>
+                <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha" autocomplete="off" min="8" max="16">
+                <label for="icheck">Lembrar-me</label>
+                <input type="checkbox" name="check" id="icheck">
+                <input type="button" value="Esqueci minha senha">
+                <input type="submit" value="Entrar">
+                <input type="reset" value="Limpar">
             </fieldset>
         </form>
+        <div class="imagem-main">
+            <iframe class="iframe-main" src="assets/image/fundo_redimensionado.jpg" frameborder="" ></iframe>
+        </div>
 
     </main>
     
