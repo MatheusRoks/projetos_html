@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* css para cada uma das mídias */
+@media print{
+    *{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        line-height: 1.5;
+    }
+    nav{
+        display: none;
+    }
+    #icone{
+        display: none;
+    }
+    .h1_header, footer{
+        color: black;
+    }
+    main::after{
+        content: " - Página impressa no site curso HTML projetos";
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    nav{
+        display: block;;
+    }
+    #icone{
+        display: none;
+    }
+    a{
+        border-radius: 5px;
+    }
+    li{
+        display: inline-block;
+
+    }
+}
+
+@media screen and (min-width: 1200px){
+    nav{
+        display: block;
+    }
+    #icone{
+        display: none;
+    }
+    a{
+        border-radius: 5px;
+    }
+    li{
+        display: inline-block;
+    }
+    main{
+        max-width: 1000px;
+        font-size: 2vw;
+    }
+}
