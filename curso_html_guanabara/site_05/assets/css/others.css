@@ -23,8 +23,13 @@
    }
 
    input[type=submit]{
-        width: 70%;
+        width: 80%;
 
+   }
+
+   input[type=email], input[type=password]{
+        padding:10px;
+        margin-left: 10px
    }
 }
 
