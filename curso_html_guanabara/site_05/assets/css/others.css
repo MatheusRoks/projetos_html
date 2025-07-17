@@ -7,6 +7,7 @@
    }
    section{
         width: 90vh;
+        height: 280px;
    }
    .imagem-main{
     float: left;
@@ -18,9 +19,7 @@
         float: right;
         width: 70%;
    }
-    h1{
-        margin-top:90px
-   }
+
 
    input[type=submit]{
         width: 80%;
