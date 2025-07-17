@@ -67,6 +67,10 @@ input[type=submit]{
     cursor: pointer;
 }
 
+label{
+    display:none;
+}
+
 input[type=submit]:hover{
     background-color: #3b7a7a;
 }
@@ -79,6 +83,10 @@ a{
     padding: 10px;
 
 }
+
+a:hover{
+    color: #3b7a7a;
+}   
 
 #email{
     font-size: 0.8em;
