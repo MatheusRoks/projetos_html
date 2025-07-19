@@ -76,7 +76,7 @@ header{
     /* configurações tecnicas */
     text-align: center;
     padding: 10px;
-    flex: 0 1 100px;
+    flex: 0 1 auto;
 
 }
 /* main e as configurações dos elementos dentro do main */
