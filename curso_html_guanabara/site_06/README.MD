@@ -1,0 +1,1 @@
+Site destinado ao aprendizado da flexbox. O objetivo desse projeto menor é utilizar das flexbox para que o site fique mais responsivo e adequado.
