@@ -35,26 +35,71 @@ header{
     /* configurações tecnicas */
     width: 100%;
 }
+
 /* container */
 .container{
+    /* configurações de estilo */
+    
+    /* configurações técnicas */
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    padding:10px;
+
 }
 
-/* main e as configurações dos elementos dentro do main */
+/* confiurações do container dentro do container */
+.ul-container{
+    /* configurações de estilo */
 
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+
+}
+
+.h1-item{
+    /* configurações de estilo */
+
+    /* configurações tecnicas */
+    text-align: center;
+    padding-right: 10px;
+}
+
+.li-item{
+    /* configurações de estilo */
+    border: 1px solid black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    /* configurações tecnicas */
+    text-align: center;
+    padding: 10px;
+    flex: 0 1 100px;
+
+}
+/* main e as configurações dos elementos dentro do main */
+/* main{
+     vazio 
+}*/
 /* container */
 .section-container{
     /* configurações de estilo */
     background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 10px;
 
     /* configurações tecnicas */
     display: flex;
     height: 90vh;
     width: 90vw;
+    max-width: 900px;
 
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    padding: 10px;
 }
 
 /* footer e as configurações dentro do footer */
