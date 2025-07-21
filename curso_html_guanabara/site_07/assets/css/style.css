@@ -17,6 +17,7 @@ html, body{
     width: 100%;
     height: 100vh;
 }
+
 /* configuração do header e os demais elementos que o compoee */
 header{
     /* configuração de estilo */
@@ -24,6 +25,36 @@ header{
     /* configurações tecnicas */
     width: 100%;
 }
+
+.menu-container{
+    /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.header-container{
+    /* configuração de estilo */
+
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.redes-container{
+        /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.ul-redes-container{
+        /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+}
+
 
 /* configuração do main e os demais elementos que o compoe */
 main{
@@ -39,6 +70,45 @@ main{
     border-radius: 20px;
 }
 
+.div-01-main{
+    /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: column nowrap
+}
+
+.section-01-main{
+    /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+}
+.div-02-main{
+    /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: column nowrap
+}
+.section-02-main{
+    /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+}
+.div-03-main{
+    /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: column nowrap
+}
+.section-03-main{
+    /* configuração de estilo */
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* configuração do footer e dos demais elementos que o compoe */
 footer{
     /* configuração de estilo */
     background-color: rgba(128, 128, 128, 0.521);
