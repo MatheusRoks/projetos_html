@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Esse file se destina a realizar a media query */
+
+/* media para impressão */
+@media print{
+    *{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1em;
+    }
+    .h1-item{
+        font-size: 1.5em;
+    }
+    .li-item{
+        display: none;
+    }
+    .section-container{
+        box-shadow: none;
+    }
+    main:after{
+        content: "conteúdo impresso do site matheusroks.github.io/projetos_html/curso_html_guanabara/site_06/index.html"
+    }
+
+}
+
+/* media para as demais telas */
+@media screen and (min-width: 600px) {
+    .container{
+        /* configurações de estilo */
+
+        /* configurações tecnicas */
+        flex-flow: row wrap;
+    }
+    .h1-item{
+        /* connfigurações de estilo */
+
+        /* coonfigurações tecnicas */
+        flex: 0 0 150px;
+        text-align: left;
+    }
+    .ul-container{
+        /* configurações de estilo */
+
+        /* configurações tecnicas */
+        flex-flow: row nowrap;
+    }
+}
