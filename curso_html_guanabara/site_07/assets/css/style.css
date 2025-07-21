@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html, body{
@@ -24,6 +25,7 @@ header{
     background-color: rgba(128, 128, 128, 0.521);
     /* configurações tecnicas */
     width: 100%;
+    min-height: 100px;
 }
 
 .menu-container{
@@ -31,6 +33,8 @@ header{
     /* configurações tecnicas */
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    min-height: 100px;
 }
 
 .header-container{
@@ -39,21 +43,113 @@ header{
     /* configurações tecnicas */
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
+}
+
+.h1-header{
+    /* configuração de estilo */
+
+    /* configurações tecnicas */
+    font-size: 3em;
+    padding: 10px;
 }
 
 .redes-container{
-        /* configuração de estilo */
+    /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
     flex-flow: row nowrap;
+
 }
 
 .ul-redes-container{
-        /* configuração de estilo */
+    /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
     flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
 }
+
+.li-redes{
+    /* configuração de estilo */
+
+    /* configurações tecnicas */
+    padding: 0 10px;
+}
+
+#ul-container{
+    /* configuração de estilo */
+    text-decoration: none;
+    /* configurações tecnicas */
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 300px;
+}
+
+#icone{
+    /* configuraçõs de estilo */
+    font-size: 3em;
+    /* configurações tecnicas */
+    cursor: pointer;
+    padding: 10px;
+}
+
+#icone:hover{
+    /* configuraçõs de estilo */
+    color: white;
+    /* configurações tecnicas */
+    transition: 0.5s;
+}
+
+nav{
+    display: none;
+}
+
+.menu-aberto{
+    display: block;
+}
+
+ul{
+    /* configuração de estilo */
+
+    /* configurações tecnicas */
+    padding: 0 0 10px 10px
+}
+
+li{
+    /* configuração de estilo */
+    text-decoration: none;
+    display: block;
+    /* configurações tecnicas */
+}
+
+a{
+    /* configuração de estilo */
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+
+   
+    /* configurações tecnicas */
+    padding: 10px;
+    display: block;
+    max-width: 90px;
+    margin-top: 5px;
+    
+}
+
+a:hover{
+    /* configurações de estilo */
+    background-color: rgb(160, 160, 160);
+    /* configuraçõess tecnicas */
+}
+
+#itens{
+    align-self: flex-start;
+}
+
 
 
 /* configuração do main e os demais elementos que o compoe */
