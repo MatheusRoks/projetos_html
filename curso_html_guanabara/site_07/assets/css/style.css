@@ -207,6 +207,23 @@ main{
     font-size: 1.2em;
 }
 
+.imagem-01-main{
+    /* configurações de estilo */
+    /* configurações tecnicas */ 
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: auto;
+
+}
+
+.img-01{
+    /* configurações de estilo */
+    /* configurações tecnicas */
+    padding: 10px;
+    flex: 0 1 auto;
+}
+
 .div-02-main{
     /* configuração de estilo */
     /* configurações tecnicas */
