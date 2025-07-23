@@ -1,1 +1,0 @@
-Esse site ainda é sobre a criação com flexbox. A intenção desse site é ser todo feito em flexbox, assim sendo, será evitado o uso de media query. 
