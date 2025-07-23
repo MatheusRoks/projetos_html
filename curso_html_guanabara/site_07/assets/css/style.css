@@ -156,8 +156,6 @@ a:hover{
     align-self: flex-start;
 }
 
-
-
 /* configuração do main e os demais elementos que o compoe */
 main{
     /* configurações de estilo */
@@ -183,31 +181,86 @@ main{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
+
+.h2-01-main{
+    /* configurações de estilo */
+    color: black;
+    /* configurações tecnicas */
+    text-align: center;
+    padding: 10px;
+}
+
+.texto-01-main{
+    /* configurações de estilo */
+    /* configurações tecnicas */
+    flex: 1 1 500px
+}
+
+.p-main{
+    /* configurações de estilo */
+    /* configurações tecnicas */
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
 .div-02-main{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
     flex-flow: column nowrap
 }
+
 .section-02-main{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
     flex-flow: row nowrap;
 }
+
+.texto-02-main{
+    /* configurações de estilo */
+    /* configurações tecnicas */
+    flex: 1 1 500px
+}
+
+.h2-02-main{
+    /* configurações de estilo */
+    color: black;
+    /* configurações tecnicas */
+    text-align: center;
+    padding: 10px;
+}
+
 .div-03-main{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
     flex-flow: column nowrap
 }
+
 .section-03-main{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
     flex-flow: row nowrap;
+}
+
+.texto-03-main{
+    /* configurações de estilo */
+    /* configurações tecnicas */
+    flex: 1 1 500px
+}
+
+.h2-03-main{
+    /* configurações de estilo */
+    color: black;
+    /* configurações tecnicas */
+    text-align: center;
+    padding: 10px;
 }
 
 /* configuração do footer e dos demais elementos que o compoe */
