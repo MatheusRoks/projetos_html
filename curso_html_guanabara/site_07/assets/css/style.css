@@ -203,7 +203,7 @@ main{
     /* configurações tecnicas */
     text-align: justify;
     text-indent: 20px;
-    padding: 10px;
+    padding: 20px;
     font-size: 1.2em;
 }
 
@@ -235,7 +235,7 @@ main{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 .texto-02-main{
@@ -252,6 +252,23 @@ main{
     padding: 10px;
 }
 
+.imagem-02-main{
+    /* configurações de estilo */
+    /* configurações tecnicas */ 
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: auto;
+
+}
+
+.img-02{
+    /* configurações de estilo */
+    /* configurações tecnicas */
+    padding: 10px;
+    flex: 0 1 auto;
+}
+
 .div-03-main{
     /* configuração de estilo */
     /* configurações tecnicas */
@@ -263,7 +280,7 @@ main{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 .texto-03-main{
@@ -278,6 +295,23 @@ main{
     /* configurações tecnicas */
     text-align: center;
     padding: 10px;
+}
+
+.imagem-03-main{
+    /* configurações de estilo */
+    /* configurações tecnicas */ 
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: auto;
+
+}
+
+.img-03{
+    /* configurações de estilo */
+    /* configurações tecnicas */
+    padding: 10px;
+    flex: 0 1 auto;
 }
 
 /* configuração do footer e dos demais elementos que o compoe */
