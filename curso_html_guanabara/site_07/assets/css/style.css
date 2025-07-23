@@ -34,7 +34,7 @@ header{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    min-height: 100px;
+    height: 120px;
 }
 
 .header-container{
@@ -42,7 +42,7 @@ header{
 
     /* configurações tecnicas */
     display: flex;
-    flex-flow: row nowrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -51,7 +51,6 @@ header{
 
     /* configurações tecnicas */
     font-size: 3em;
-    padding: 10px;
 }
 
 .redes-container{
@@ -59,6 +58,7 @@ header{
     /* configurações tecnicas */
     display: flex;
     flex-flow: row nowrap;
+    justify-content: flex-end;
 
 }
 
@@ -84,15 +84,17 @@ header{
     /* configurações tecnicas */
     display: flex;
     flex-flow: column nowrap;
-    max-width: 300px;
+    background-color: red;
+    width: 110px;
 }
 
 #icone{
     /* configuraçõs de estilo */
-    font-size: 3em;
+    font-size: 2em;
     /* configurações tecnicas */
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 0px 0px 10px;
+    text-align: left;
 }
 
 #icone:hover{
