@@ -5,7 +5,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 html, body{
@@ -16,7 +15,8 @@ html, body{
 
     /* configurações tecnicas */
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    
 }
 
 /* configuração do header e os demais elementos que o compoee */
@@ -26,13 +26,14 @@ header{
     /* configurações tecnicas */
     width: 100%;
     min-height: 100px;
+    position:relative;
 }
 
 .menu-container{
     /* configuração de estilo */
     /* configurações tecnicas */
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     height: 120px;
 }
@@ -51,6 +52,7 @@ header{
 
     /* configurações tecnicas */
     font-size: 3em;
+    transform: translatey(-10px);
 }
 
 .redes-container{
@@ -105,7 +107,9 @@ header{
 }
 
 nav{
+    /* configurações tecnicas */
     display: none;
+    position: absolute;
 }
 
 .menu-aberto{
